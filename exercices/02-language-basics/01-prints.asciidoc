@@ -1,0 +1,16 @@
+= Exercices sur `print`
+
+== Exercice 1
+
+- Affichez dans la console le texte suivant :
+- La rue Rostand
+- `3 espaces` Se trouve au
+- Feu à droite
+
+== Exercice 2
+
+`print` prend plusieurs arguments, qui sont affichés sur la même ligne, séparés par un espace. *Syntaxe* : `print("a", "b", "c", etc.)`
+
+- Affichez, avec cette syntaxe, le texte suivant :
+* Hauts les cœurs !
+- `Alt Gr + O` → `œ`

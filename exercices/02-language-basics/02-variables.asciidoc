@@ -1,0 +1,29 @@
+= Variables
+
+== Exercice 1
+
+- Déclarez trois variables, avec des noms corrects, contenant :
+* Le nom d'une personne, ex. "Paul"
+* La température courante en °C, ex. 25.3
+* L'âge d'une personne, ex. 30
+
+== Exercice 2
+
+- Demandez à l'utilisateur de saisir du texte, et mettez-le dans une variable
+- Affichez le contenu de la variable.
+- Outils : `input()`, `print()`
+
+== Exercice 3
+
+- Déclarez trois variables, contenant le résultats de :
+* Une opération arithmétique entre nombres
+* Une comparaison entre nombres
+* Une opération d'addition entre deux chaînes
+- Affichez leur contenu dans la console.
+
+== Exercice 4
+
+- Déclarez trois variables, avec des noms typographiquement **incorrects**.
+* Ex. `VariableSuper`, `topUser`, `Rond_De_Cuir` etc...
+
+
