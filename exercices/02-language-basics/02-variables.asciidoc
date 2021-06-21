@@ -26,4 +26,9 @@
 - Déclarez trois variables, avec des noms typographiquement **incorrects**.
 * Ex. `VariableSuper`, `topUser`, `Rond_De_Cuir` etc...
 
+== Exercice A1
 
+- Définissez une variable contenant une valeur en mètres (supérieure à 1000)
+- Affichez le nombre de kilomètres dans cette valeur
+- Afficher le nombre de mètres restants dans cette valeur
+- Outils : opérateurs `//` (division entière), `%` (modulo)
