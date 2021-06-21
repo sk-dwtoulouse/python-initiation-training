@@ -1,0 +1,6 @@
+= Exercices sur les blocs vides
+
+== Exercice 1
+
+- Écrivez un bloc `if` dont le code, lorsqu'il est exécuté, ne fait rien.
+- *Outils* : `pass`

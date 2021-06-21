@@ -1,0 +1,16 @@
+= Exercices sur les boucles `while`
+
+== Exercice 1
+
+- Déclarer une variable `number` égale à 10
+- Écrivez une boucle `while` tournant tant que `number` est supérieur ou égal à 0.
+- Dans la boucle, afficher `number`, et retirer `1` à `number`.
+
+== Exercice 2
+
+- Écrire une boucle `while` qui tourne indéfiniment (condition `True`, ou soyez créatif)
+
+== Exercice 3
+
+- Écrire une boucle `while` qui ne se lance jamais (condition `False`, ou soyez créatif)
+- (il suffit que la condition soit fausse dès le départ)

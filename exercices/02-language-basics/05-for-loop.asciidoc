@@ -1,0 +1,17 @@
+= Exercices sur les boucles `for`
+
+== Exercice 1
+
+- Écrivez une boucle `for` sur les nombres de 0 à 9.
+- Affichez la valeur du nombre parcouru.
+
+== Exercice 2
+
+- Écrivez une boucle `for` sur les nombres de 0 à 9.
+- Affichez la valeur du nombre s'il est pair (`nombre % 2 == 0`)
+
+== Exercice A1
+
+- Écrivez une boucle `for` sur les nombres de 0 à 9 (variable nommée `item1`).
+- Dans cette boucle, écrivez une autre boucle sur les nombres de 0 à `item1` (variable `item2`)
+- Dans cette sous-boucle, affichez sur la même ligne `item1` et `item2`.
