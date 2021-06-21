@@ -1,0 +1,22 @@
+= Exercices sur les listes
+
+== Exercice 1
+
+- Écrivez une liste contenant les nombres entiers pairs de 0 à 10 inclus
+- Assignez la longueur de la liste à une variable (`len()`)
+- Affichez le dernier élément de la liste (en utilisant la longueur)
+- Ajoutez un élément à la fin de la liste
+- Affichez le nouveau contenu de la liste
+
+== Exercice 2
+
+- Écrivez une liste contenant les nombres 1, 2, 4, 8, 16, 32, 64
+- Supprimez de la liste le nombre 8
+- Ajoutez à la fin de la liste le nombre 128
+- Affichez le contenu de la liste dans la console.
+
+== Exercice A1
+
+- Écrivez une liste contenant les nombres multiplesd e 3 de 0 à 15.
+- Faites une boucle `for` sur cette liste,
+* et affichez uniquement les nombres pairs de cette liste (`valeur % 2 == 0`)
