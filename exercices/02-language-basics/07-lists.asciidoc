@@ -15,8 +15,33 @@
 - Ajoutez à la fin de la liste le nombre 128
 - Affichez le contenu de la liste dans la console.
 
+== Exercice 3 (indices négatifs)
+
+- Écrivez une liste contenant 3 éléments
+- Affichez le *dernier* élément en utilisant un indice négatif
+- Affichez le *premier* élément en utilisant un indice négatif
+
+== Exercice 4 (slicing)
+
+- Écrivez une liste de 6 nombres
+- Affichez la liste comprenant les 3 premiers éléments
+- Affichez la liste comprenant tout sauf le premier élément
+
+== Exercice 5 (slicing avancé)
+
+- Réutilisez la liste de l'exercice 4
+- Affichez toute la liste, mais à l'envers
+- Affichez une liste comprenant les éléments aux indices pairs
+
 == Exercice A1
 
 - Écrivez une liste contenant les nombres multiplesd e 3 de 0 à 15.
 - Faites une boucle `for` sur cette liste,
 * et affichez uniquement les nombres pairs de cette liste (`valeur % 2 == 0`)
+
+== Exercice A2
+
+- Consultez la https://docs.python.org/3/tutorial/datastructures.html#more-on-lists[référence des fonctions de listes]
+- Déclarez une liste de nombres flottants
+- Utilisez la méthode qui sert à renvoyer le dernier élément et le supprimer de la liste
+- Affichez cet élément, puis la liste

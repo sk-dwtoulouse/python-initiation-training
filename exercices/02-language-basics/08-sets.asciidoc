@@ -1,0 +1,42 @@
+= Exercices sur les ensembles
+
+== Exercice 1
+
+- Écrivez un `set` contenant 5 valeurs
+- Déclarez un second `set` contenant au moins 2 valeurs du premier set
+- Essayez d'ajouter une valeur déjà existante à un set
+- Affichez les valeurs communes aux deux sets (`intersection()`)
+- Affichez un set contenant toutes les valeurs des 2 sets (`union()`)
+
+== Exercice 2 (conversion)
+
+- Écrivez une *liste* contenant des valeurs en doublons
+- Affichez le contenu de la liste
+- Assignez à une variable la conversion de la liste en set (`set(x)`)
+- Affichez la valeur du set obtenu
+
+== Exercice 3
+
+Al et Kim sont inscrits sur un réseau social. Al a les amis suivants :
+
+- Josephine
+- Meghan
+- Amy
+- Bob
+
+Kim a les amis suivants :
+
+- Frank
+- Amy
+- Josephine
+- Susan
+
+Quels sont leurs amis en commun ? Écrivez un code qui représente et résout cet énoncé.
+
+== Exercice 4
+
+Partant du tuple suivant :
+
+`(1, 4, 6, 9, 1, 3, 6, 12, 2, 5, 7, 10, 3, 5, 2, 6, 4, 6, 1, 8, 5, 2, 3, 6)`
+
+- Affichez le nombre de valeurs différentes présentes dans le tuple.

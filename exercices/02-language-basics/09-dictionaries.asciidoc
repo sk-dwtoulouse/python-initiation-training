@@ -1,0 +1,35 @@
+= Exercices sur les dictionnaires
+
+== Exercice 1
+
+- Écrivez un simple dictionnaire associant des noms à des âges :
+* Paul → 30
+* Karim → 22
+* Gina → 41
+* Anna → 25
+- Affichez l'âge de Gina
+- Ajoutez les associations suivantes :
+* Alina → 33
+* Victor → 55
+- Affichez le contenu du dictionnaire
+
+== Exercice 2 (parcours)
+
+- Réutilisez votre dictionnaire
+- Utilisez une boucle `for` normale pour :
+* Afficher les clés du dictionnaire
+* Afficher la valeur associée à chaque clé
+
+== Exercice 3 (parcours + `.items()`)
+
+- Réutilisez votre dictionnaire
+- Utilisez une boucle `for` sur `.items()` avec deux variables :
+* Affichez clé et valeur associée
+
+== Exercice A1 (compréhension)
+
+- Déclarez un dictionnaire de conditions météo (°C, condition, pression)
+* `meteo = {"Pau": (21.0, "Nuageux", 1015), "Gap": (20.3, "Dégagé", 1019)}`
+- À l'aide d'une compréhension de liste, récupérer un dictionnaire :
+* Dont les clés sont toujours les noms de villes
+* Dont les valeurs sont uniquement la température associée

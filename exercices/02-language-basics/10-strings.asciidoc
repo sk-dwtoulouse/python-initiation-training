@@ -1,0 +1,20 @@
+= Exercices sur les manipulations de chaînes
+
+== Exercice 1
+
+- Déclarez une chaîne de caractères avec plusieurs mots
+- Affichez la version tout en majuscules (`upper`)
+- Affichez la version tout en minuscules (`lower`)
+- Découpez la autour des espaces (`split`)
+
+== Exercice 2 (joindre les deux bouts)
+
+- Partant de cette liste de mots :
+
+[source,python]
+----
+word_list = ("mon", "vieux", "tonton", "m'a", "jeté", "sur", "une", "nouvelle", "planète")
+----
+
+Utiliser la méthode `join()` sur une chaîne de séparation pour reconstituer la phrase entière.
+(N'utilisez pas de boucle `for`).
