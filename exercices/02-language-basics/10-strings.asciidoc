@@ -2,6 +2,7 @@
 
 == Exercice 1
 
+- Consultez https://docs.python.org/3/library/stdtypes.html#string-methods[les méthodes disponibles sur les chaînes]
 - Déclarez une chaîne de caractères avec plusieurs mots
 - Affichez la version tout en majuscules (`upper`)
 - Affichez la version tout en minuscules (`lower`)
@@ -18,3 +19,30 @@ word_list = ("mon", "vieux", "tonton", "m'a", "jeté", "sur", "une", "nouvelle",
 
 Utiliser la méthode `join()` sur une chaîne de séparation pour reconstituer la phrase entière.
 (N'utilisez pas de boucle `for`).
+
+== Exercice 3 (slicing)
+
+- Déclarez une chaîne de caractères quelconque
+- En utilisant le _slicing_, affichez-la à l'envers
+- De la même façon, affichez uniquement les 5 premiers caractères
+- Affichez le texte, mais uniquement un caractère sur deux
+
+== Exercice 4 (f-strings)
+
+- Déclarez plusieurs variables :
+* `number = 14`
+* `base_list = [1, 2, 3]`
+- Affichez une *f-string* incluant le contenu de `number` et `base_list` :
+* Il est *14* heures. La liste est *[1, 2, 3]*.
+
+== Exercice A1 (`join` + conversion)
+
+Partant de cette liste :
+
+[source, python]
+----
+items = ["Hello, it's", True, "that", 40, "people have", None]
+----
+
+- Confectionner une phrase avec `" ".join()`.
+- La fonction `join` nécessitant une liste de chaînes pour fonctionner, utilisez une compréhension de liste pour convertir cette liste en liste de chaînes (utilisez `str(x)`).

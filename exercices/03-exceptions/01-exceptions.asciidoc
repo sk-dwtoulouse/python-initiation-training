@@ -1,0 +1,37 @@
+= Exercices sur les exceptions
+
+== Exercice 1
+
+- Écrivez un bloc `try/except`
+- Dans le bloc `try`, provoquez une division par zéro (`ZeroDivisionError`)
+- Dans le bloc `except`, affichez "Division impossible !"
+
+== Exercice A1
+
+- Générez un nombre entier aléatoire entre 0 et 1 :
+
+[source,python]
+----
+from random import randint
+number = randint(0, 1)
+----
+
+- Écrivez un bloc `try/except`
+- Dans le bloc `try` :
+* Si `number` vaut `0`, afficher `[1, 2, 3][4]` (`IndexError`)
+* Si `number` vaut `1`, afficher `{}[0]` (`KeyError`)
+- Écrire un bloc `except` pour `IndexError`, qui affiche "Erreur d'index"
+- Écrire un bloc `except` pour `KeyError`, qui affiche "Erreur de clé"
+
+== Exercice 2 (variante)
+
+- Reprenez une copie de l'exerice 1
+- Mais cette fois, ayez un seul bloc `except` qui gère à la fois `IndexError` et `KeyError`, et qui affiche "Erreur d'accès".
+
+== Exercice A1
+
+- Écrivez un bloc `try/except`
+- Provoquez une erreur dans le bloc `try` (pas une erreur de syntaxe !)
+- Écrivez un bloc `except` qui ne gère pas la bonne erreur (ex. `IOError`)
+- Écrivez un bloc `finally` qui affiche du texte
+- Exécutez votre code et voyez que le bloc `finally` est bien honoré.
