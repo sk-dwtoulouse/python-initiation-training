@@ -23,12 +23,12 @@ number = randint(0, 1)
 - Écrire un bloc `except` pour `IndexError`, qui affiche "Erreur d'index"
 - Écrire un bloc `except` pour `KeyError`, qui affiche "Erreur de clé"
 
-== Exercice 2 (variante)
+== Exercice A2 (variante)
 
 - Reprenez une copie de l'exerice 1
 - Mais cette fois, ayez un seul bloc `except` qui gère à la fois `IndexError` et `KeyError`, et qui affiche "Erreur d'accès".
 
-== Exercice A1
+== Exercice A3
 
 - Écrivez un bloc `try/except`
 - Provoquez une erreur dans le bloc `try` (pas une erreur de syntaxe !)
