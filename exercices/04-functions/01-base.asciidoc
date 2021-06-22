@@ -1,0 +1,16 @@
+= Exercices sur les fonctions
+
+== Exercice 1
+
+- Écrivez une fonction nommée `show_something` qui ne prend pas d'argument
+- Cette fonction doit afficher dans la console "Something"
+- Appelez cette fonction
+
+== Exercice 2
+
+- Écrivez une fonction nommée `return_constant` qui ne prend pas d'argument
+- Cette fonction affiche dans la console "99"
+- Cette fonction renvoie à l'appelant la valeur `99`
+- Appeler la fonction et assigner sa valeur de retour à une variable
+- Afficher le contenu de la variable
+
