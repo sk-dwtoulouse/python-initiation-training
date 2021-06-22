@@ -21,6 +21,19 @@
 - Affichez le *dernier* élément en utilisant un indice négatif
 - Affichez le *premier* élément en utilisant un indice négatif
 
+== Pré-Exercice 4 (slicing)
+
+[source,python]
+----
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = a[0:5]  # Index 0 à 5 non inclus. Marche aussi sur les chaînes.
+c = a[5:0]  # L'index de fin est inférieur au départ, renvoie une liste vide
+f = a[:]  # Renvoie toute la liste
+d = a[::-1]  # Tout parcourir à l'envers
+e = a[::2]  # Tout parcourir 2 par 2
+----
+
+
 == Exercice 4 (slicing)
 
 - Écrivez une liste de 6 nombres
