@@ -30,8 +30,9 @@
 == Exercice 4 (Redéfinition de l'instanciation)
 
 - Réutilisez la classe `Library`
-- Redéfinissez la méthode `__init__()` pour accepter des arguments `name` et `address`.
-- L'argument `address` possède une valeur par défaut, `None`
+- Définissez la méthode `_ _ init _ _()`, qui accepte des arguments `name` et `address` :
+* `address` possède une valeur par défaut à `None`
+* `name` est un argument positionnel, donc obligatoire
 - Instanciez deux nouveaux objets de cette classe
 - Exécutez la méthode `show_status()` sur ces deux objets
 
@@ -39,8 +40,9 @@
 
 - Définissez une classe `ComicBook` héritant de `Book`
 - Cette classe contient en plus un attribut `is_color` (`True`)
-- Instanciez un objet de chaque classe
-- Vérifiez que l'objet de type `ComicBook` est bien un `Book`
+- Instanciez un objet de chacune des deux classes `Book` et `ComicBook`
+- Vérifiez que l'objet de type `ComicBook` est bien un `Book` :
+* en utilisant la fonction `isinstance(object, class)`
 
 == Exercice 6 (Polymorphisme)
 
