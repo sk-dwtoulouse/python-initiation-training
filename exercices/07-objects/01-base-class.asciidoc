@@ -48,3 +48,7 @@
 - Ajoutez une méthode `publish(value)` sur `Book`, qui change l'attribut `is_published`
 - Redéfinissez la méthode `publish(value)` sur `ComicBook`, qui fait la même chose que dans `Book` (fonction `super()`), puis affiche `"Comic book mis à jour"`
 - Testez les méthodes sur deux objets, de type `Book` et `ComicBook`.
+
+== Exercice B1 (staticmethod)
+
+- Écrivez une méthode statique dont la syntaxe est correcte.
