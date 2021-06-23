@@ -1,0 +1,30 @@
+= Exercices sur les dates et heures
+
+== Exercice 1
+
+- Déclarez trois objets `datetime` :
+* `now` : là, tout de suite
+* `forty_ago` : le 12 février 1981 à 22h31
+* `fifteen_ago` : le 3 mars 2006 à 16h10 et 14 secondes
+- Affichez chacun de ces objets dans la console
+- Affichez le mois de `forty_ago` (`.month`)
+- Affichez les minutes et secondes de `fifteen_ago`
+
+== Exercice 2
+
+- Conservez les variables du dessus
+- Assignez la différence entre `now` et `forty_ago` dans une variable `interval_40`
+- Affichez le nombre de jours contenus dans `interval_40` (`.days`)
+- Affichez la date qu'il sera dans `interval_40` (`now + interval_40`)
+
+== Exercice 3 (conversion vers chaîne)
+
+- Conservez les variables du dessus
+- Affichez `fifteen_ago` sous la forme suivante :
+* `"03 mars 2006, 16:10:14"`
+- (utilisez `fifteen_ago.strftime(format 8563.3.3.)`)
+
+== Exercice 4 (conversion depuis chaîne)
+
+- Convertissez la chaîne `"31-01-2019 16:48"` vers un objet `datetime`
+- (utilisez `datetime.strptime(chaine, format)`)

@@ -14,3 +14,23 @@
 - Appeler la fonction et assigner sa valeur de retour à une variable
 - Afficher le contenu de la variable
 
+== Exerice 3
+
+- Écrivez une fonction nommée `product` qui prend deux arguments positionnels `x` et `y`
+- Cette fonction renvoie le produit de `x` et `y`
+- Affichez le résultat de cette fonction lorsque vous l'appelez avec les valeurs :
+* `10, 10`
+* `15, -15`
+* `"hello ", 3`
+* `[1, 2, 3], 2`
+
+== Exercice 4
+
+- Écrivez une fonction nommée `quotient` qui prend un argument positionnel `numerator` et un argument par défaut `denominator`, qui prend la valeur `1` par défaut.
+- La fonction renvoie le quotient de `numerator` et `denominator`.
+- La fonction gère l'exception de `ZeroDivisionError` en renvoyant la valeur `None`.
+- Affichez le résultat de cette fonction lorsque vous l'appelez avec les valeurs :
+* `10, 4`
+* `10, -1`
+* `1, 0`
+- Variez les appels en passant les arguments positionnellement, par nom, etc.

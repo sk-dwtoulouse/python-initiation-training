@@ -1,0 +1,19 @@
+= Exercices sur les fonctions
+
+== Exercice A1
+
+- Écrivez une fonction `print_lines` qui prend un argument étoile `*lines`
+- La fonction utilise une boucle `for` pour afficher les éléments de `lines` dans la console
+- Appelez la fonction avec des arguments différents :
+* `"ligne 1", "ligne 2", 13, 14, 15`
+* _aucun argument_
+* `"matin", "midi", "soir", "nuit"`
+
+== Exercice A2
+
+- Écrivez une fonction `mappings` qui prend un argument double-étoile `**prices`
+- La fonction parcourt le dictionnaire dans `prices` et affiche pour chaque clé `key` :
+* `f"Produit : {key:<16} - Prix : {value:.2f}€"`
+- Testez l'appel de cette fonction avec des arguments suivants :
+* `pomme=0.8, cassis=1.5, ananas=2.8, raisin=4.99`
+* `perrier=1.2, badoit=0.95, san_pellegrino=1.1, vichy=40`

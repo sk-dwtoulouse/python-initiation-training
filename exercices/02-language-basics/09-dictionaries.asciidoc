@@ -33,3 +33,8 @@
 - À l'aide d'une compréhension de liste, récupérer un dictionnaire :
 * Dont les clés sont toujours les noms de villes
 * Dont les valeurs sont uniquement la température associée
+
+== Exercice A2 (compréhensions)
+
+- Déclarez une liste via une compréhension, qui contient les nombres pairs de 0 à 98, sauf ceux divisibles par 5. (comprendre, uniquement ceux non divisibles par 5).
+- Déclarez une liste de mots manuellement. Puis déclarez un générateur (compréhension de tuple) qui contient uniquement les mots de plus de 4 lettres. (`len()`).

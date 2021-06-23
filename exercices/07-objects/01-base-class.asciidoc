@@ -1,0 +1,50 @@
+= Exercices sur les classes (basique)
+
+== Exercice 1
+
+(Thème *bibliothèque*)
+
+- Déclarez une classe `Library`
+- Avec un attribut `name` (défaut `None`)
+- Avec un attribut `address` (défaut `None`)
+- Instanciez deux nouveaux objets de cette classe (différenciez noms de variables et de classes)
+- Affichez la valeur de l'attribut `name` de l'un des objets
+
+== Exercice 2
+
+- Déclarez une classe `Book`
+- Avec des attributs `title` (`None`), `author` (`None`), `year` (`None`)
+- Instanciez un nouvel objet de cette classe
+- Modifiez les attributs `title` et `author`
+- Affichez la valeur de ces attributs
+
+== Exercice 3 (méthodes)
+
+- Réutilisez la classe `Library`
+- Ajoutez-y un attribut `is_open`
+- Ajoutez une méthode `open(value=True)` qui change l'attribut `is_open`
+- Ajoutez une méthode `show_status()` qui affiche l'état de la bibliothèque :
+* `"Bibliothèque <nom> :"`
+* `"État : Ouverte"` (ou `"fermée"`)
+
+== Exercice 4 (Redéfinition de l'instanciation)
+
+- Réutilisez la classe `Library`
+- Redéfinissez la méthode `__init__()` pour accepter des arguments `name` et `address`.
+- L'argument `address` possède une valeur par défaut, `None`
+- Instanciez deux nouveaux objets de cette classe
+- Exécutez la méthode `show_status()` sur ces deux objets
+
+== Exercice 5 (Héritage)
+
+- Définissez une classe `ComicBook` héritant de `Book`
+- Cette classe contient en plus un attribut `is_color` (`True`)
+- Instanciez un objet de chaque classe
+- Vérifiez que l'objet de type `ComicBook` est bien un `Book`
+
+== Exercice 6 (Polymorphisme)
+
+- Ajoutez un attribut `is_published` sur la classe `Book`
+- Ajoutez une méthode `publish(value)` sur `Book`, qui change l'attribut `is_published`
+- Redéfinissez la méthode `publish(value)` sur `ComicBook`, qui fait la même chose que dans `Book` (fonction `super()`), puis affiche `"Comic book mis à jour"`
+- Testez les méthodes sur deux objets, de type `Book` et `ComicBook`.
