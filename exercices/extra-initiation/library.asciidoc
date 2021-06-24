@@ -45,6 +45,7 @@ l'organisation est simple, ceci dû à la taille du projet. Des projets grandiss
 1. `register_book(self, book)` qui ajoute un livre à l'attribut `.books` (le transforme d'abord en liste s'il est à `None`, puis ajoute le livre)
 1. `show_books()` qui affiche la liste des livres enregistrés
 1. `_ _ str _ _(self)` qui renvoie le texte affiché si on fait `print()` sur l'objet
+1. `get_book_avg_prices()` qui renvoie le prix moyen des livres de la bibliothèque
 
 == Des livres
 
@@ -55,8 +56,9 @@ l'organisation est simple, ceci dû à la taille du projet. Des projets grandiss
 - `is_borrowed` (`False`) : le livre est-il emprunté
 - `borrower` (`None`) : personne qui a emprunté
 - `history` (`None`) : liste des opérations d'emprunt du livre
+- `price` (`0`) : prix de base
 1. Avec des méthodes
-1. `_ _ init _ _(self, ...)` pour initialiser les attributs `title` et `author`
+1. `_ _ init _ _(self, ...)` pour initialiser les attributs `title`, `price` et `author`
 1. `borrow(self, user)` qui marque le livre comme emprunté, et modifie `borrower` :
 - Ne fait rien si le livre est déjà marqué emprunté, sinon :
 - `is_borrowed` devient `True`

@@ -1,0 +1,34 @@
+= Exercices sur les fichiers texte
+
+== Exercice 1
+
+- Écrivez un fichier texte, dans lequel vous écrivez les lignes suivantes :
+* `Il est un feu discret qui se cache en ton âme,`
+* `Mais qui tremble et palpite à tous les coups du sort :`
+* `C'est l'espoir ! Défends bien cette petite flamme ;`
+* `Si la flamme s'éteint, ami, ton cœur est mort.`
+- Pensez bien aux `"\n"` pour passer à la ligne !
+
+== Exercice 2
+
+- Ouvrez à nouveau votre fichier texte, mais en lecture
+- Pour relire et afficher les lignes du fichier une à une
+- Utilisez une boucle `while` :
+* `line = <lire une ligne>`
+* `while line != "":`
+* `<afficher la ligne>`
+* `<lire la ligne suivante>`
+
+ou
+
+- Variante de boucle avec la syntaxe de `Python 3.8`
+* `while line := <lire une ligne>:`
+* <afficher la ligne>
+
+== Exercice 3 (ouverture avec `with`)
+
+- Remplacez le code des deux exercices précédents pour utiliser un gestionnaire de contexte.
+
+
+
+

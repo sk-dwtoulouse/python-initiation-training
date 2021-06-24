@@ -21,7 +21,7 @@
 == Exercice 3 (méthodes)
 
 - Réutilisez la classe `Library`
-- Ajoutez-y un attribut `is_open`
+- Ajoutez-y un attribut `is_open` (`True`)
 - Ajoutez une méthode `open(value=True)` qui change l'attribut `is_open`
 - Ajoutez une méthode `show_status()` qui affiche l'état de la bibliothèque :
 * `"Bibliothèque <nom> :"`

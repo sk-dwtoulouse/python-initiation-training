@@ -1,0 +1,39 @@
+= Exercices sur les fichiers texte JSON, CSV etc.
+
+== Exercice 1 (JSON)
+
+- Convertissez le contenu du fichier JSON proposé sur le dépôt Git en structure Python
+- La donnée lue depuis le fichier JSON contient un dictionnaire
+* Quelle notation d'accès aux données du dictionnaire allez-vous utiliser pour récupérer la valeur suivante ?
+* `"New York Bulls"`
+- Indice : `data["quiz"]["sport"]...`
+
+== Exercice 2 (JSON, écriture)
+
+- Créez une structure Python étant une liste ou un dictionnaire
+- Écrivez un fichier JSON valide depuis cette structure
+- Le fichier doit être indenté (`json.dumps(data, indent=4)`)
+
+== Exercice 3 (CSV)
+
+- Ouvrez à nouveau votre fichier texte, mais en lecture
+- Pour relire et afficher les lignes du fichier une à une
+- Utilisez une boucle `while` :
+* `line = <lire une ligne>`
+* `while line != "":`
+* `<afficher la ligne>`
+* `<lire la ligne suivante>`
+
+ou
+
+- Variante de boucle avec la syntaxe de `Python 3.8`
+* `while line := <lire une ligne>:`
+* <afficher la ligne>
+
+== Exercice 3 (ouverture avec `with`)
+
+- Remplacez le code des deux exercices précédents pour utiliser un gestionnaire de contexte.
+
+
+
+
