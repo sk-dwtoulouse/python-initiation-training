@@ -1,7 +1,10 @@
 import csv
 
+from loaders.basemanager import BaseDataManager
+from loaders.formats import DataFormat
 
-class CSVManager:
+
+class CSVManager(BaseDataManager):
     """
     Utility class to keep CSV data for export in other formats.
 
@@ -37,6 +40,15 @@ class CSVManager:
                 self.data = []
             for row in reader:
                 self.data.append(row)
+
+    def export(self, url: str, fmt: DataFormat):
+        """Official method to export data."""
+        if fmt is DataFormat.TEXT:
+            self.export_text(url)
+        elif fmt is DataFormat.CSV:
+            self.export_csv(url)
+        else:
+            raise ValueError(f"{fmt}: unsupported format.")
 
     def export_text(self, url: str):
         """
