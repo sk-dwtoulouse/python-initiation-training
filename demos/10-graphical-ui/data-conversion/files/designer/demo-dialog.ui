@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>main_window</class>
- <widget class="QMainWindow" name="main_window">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -20,7 +20,8 @@
    <string>Conversion de données CSV</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="application-excel"/>
+   <iconset theme="application-excel">
+    <normaloff>../../../../../../../../../.designer/backup</normaloff>../../../../../../../../../.designer/backup</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -47,7 +48,8 @@
            <string>Cliquez pour sélectionner</string>
           </property>
           <property name="icon">
-           <iconset theme="fileopen"/>
+           <iconset theme="fileopen">
+            <normaloff>../../../../../../../../../.designer/backup</normaloff>../../../../../../../../../.designer/backup</iconset>
           </property>
          </widget>
         </item>
