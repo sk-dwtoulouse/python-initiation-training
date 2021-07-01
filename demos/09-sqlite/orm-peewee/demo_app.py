@@ -1,0 +1,22 @@
+"""
+Simple demo application to showcase Peewee.
+
+Simple script with model definition to showcase the
+use of ORMs and Peewee for beginners in database usage.
+
+"""
+import peewee as pw
+from models import Person
+
+if __name__ == "__main__":  # Only if executed manually.
+    # Initialize a Peewee database for SQLite
+    db = pw.SqliteDatabase("database/demo-file.sqlite3")
+    # Make the Person model use the database.
+    Person.bind(db)
+    # Query the `person` table.
+    query = Person.select().where(Person.age > 50)
+
+    # Display the results with a friendly formatting.
+    print(f"List of people older than 50 years old:\n{'–' * 80}")
+    for person in query:  # type: Person
+        print(f"{person.id:02d}. {person.get_full_name():<30}: {person.age} years old.")
