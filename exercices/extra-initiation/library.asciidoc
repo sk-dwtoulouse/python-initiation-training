@@ -33,49 +33,49 @@ l'organisation est simple, ceci dû à la taille du projet. Des projets grandiss
 
 == Des bibliothèques
 
-1. Créez une classe `Library`
-1. Avec des attributs
+. Créez une classe `Library`
+. Avec des attributs
 - `name` (`None`)
 - `is_open` (`True`)
 - `books` (`None`)
-1. Avec des méthodes
-1. `_ _ init _ _(self, name=None, is_open=True)` qui initialise les attributs du nouvel objet.
-1. `open(self, value=True)` pour changer l'état d'ouverture :
+. Avec des méthodes
+. `_ _ init _ _(self, name=None, is_open=True)` qui initialise les attributs du nouvel objet.
+. `open(self, value=True)` pour changer l'état d'ouverture :
 - Ne fait rien si `value` a déjà la même valeur que `self.is_open`
-1. `register_book(self, book)` qui ajoute un livre à l'attribut `.books` (le transforme d'abord en liste s'il est à `None`, puis ajoute le livre)
-1. `show_books()` qui affiche la liste des livres enregistrés
-1. `_ _ str _ _(self)` qui renvoie le texte affiché si on fait `print()` sur l'objet
-1. `get_book_avg_prices()` qui renvoie le prix moyen des livres de la bibliothèque
+. `register_book(self, book)` qui ajoute un livre à l'attribut `.books` (le transforme d'abord en liste s'il est à `None`, puis ajoute le livre)
+. `show_books()` qui affiche la liste des livres enregistrés
+. `_ _ str _ _(self)` qui renvoie le texte affiché si on fait `print()` sur l'objet
+. `get_book_avg_prices()` qui renvoie le prix moyen des livres de la bibliothèque
 
 == Des livres
 
-1. Créez une classe `Book`
-1. Avec des attributs
+. Créez une classe `Book`
+. Avec des attributs
 - `title` (`None`)
 - `author` (`None`)
 - `is_borrowed` (`False`) : le livre est-il emprunté
 - `borrower` (`None`) : personne qui a emprunté
 - `history` (`None`) : liste des opérations d'emprunt du livre
 - `price` (`0`) : prix de base
-1. Avec des méthodes
-1. `_ _ init _ _(self, ...)` pour initialiser les attributs `title`, `price` et `author`
-1. `borrow(self, user)` qui marque le livre comme emprunté, et modifie `borrower` :
+. Avec des méthodes
+. `_ _ init _ _(self, ...)` pour initialiser les attributs `title`, `price` et `author`
+. `borrow(self, user)` qui marque le livre comme emprunté, et modifie `borrower` :
 - Ne fait rien si le livre est déjà marqué emprunté, sinon :
 - `is_borrowed` devient `True`
 - `borrower` prend la référence de l'objet de la classe `User`
 - `history` *devient* une liste à laquelle on ajoute le dictionnaire `{"user": user, "when": datetime.now()}`
-1. `return_borrow(self)` qui marque le livre comme rendu (non emprunté)
+. `return_borrow(self)` qui marque le livre comme rendu (non emprunté)
 - Ne fait rien si le livre est déjà marqué comme non emprunté, sinon :
 - `borrower` prend la valeur `None`
-1. `show_history(self)` qui affiche l'historique formaté des emprunts
-1. `show_status(self)` qui affiche le statut du livre : titre, emprunté etc.
+. `show_history(self)` qui affiche l'historique formaté des emprunts
+. `show_status(self)` qui affiche le statut du livre : titre, emprunté etc.
 
 
 == Des utilisateurs
 
-1. Créez une classe `User`
-1. Avec des attributs
+. Créez une classe `User`
+. Avec des attributs
 - `name` (`None`)
-1. Avec des méthodes
-1. `_ _ init _ _(self, name=None)` qui initialise l'attribut de l'objet
-1. `_ _ str _ _ (self)` qui renvoie une chaîne `f"Utilisateur : {self.name}"`
+. Avec des méthodes
+. `_ _ init _ _(self, name=None)` qui initialise l'attribut de l'objet
+. `_ _ str _ _ (self)` qui renvoie une chaîne `f"Utilisateur : {self.name}"`

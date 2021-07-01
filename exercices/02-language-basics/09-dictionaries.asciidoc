@@ -29,9 +29,9 @@
 == Exercice A1 (compréhension)
 
 - Déclarez un dictionnaire de conditions météo (°C, condition, pression)
-* `meteo = {"Pau": (21.0, "Nuageux", 1015), "Gap": (20.3, "Dégagé", 1019)}`
+* `meteo = {"Pau": (21.0, "Nuageux", 1015), "Gap": (20.3, "Dégagé", 1019), "Osny": (19.1, "Brouillard", 1015)}`
 - À l'aide d'une compréhension de liste, récupérer un dictionnaire :
-* Dont les clés sont toujours les noms de villes
+* Dont les clés sont les mêmes noms de villes
 * Dont les valeurs sont uniquement la température associée
 
 == Exercice A2 (compréhensions)

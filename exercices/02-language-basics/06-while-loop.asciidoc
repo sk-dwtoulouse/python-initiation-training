@@ -14,3 +14,9 @@
 
 - Écrire une boucle `while` qui ne se lance jamais (condition `False`, ou soyez créatif)
 - (il suffit que la condition soit fausse dès le départ)
+
+== Exercice A1 : Fibonacci
+
+- Écrire du code, affichant dans la console, les éléments successifs de la suite de Fibonacci jusqu'à 10 000 :
+* Utiliser deux variables, `left` and `right` qui vont, au départ, contenir les deux premiers éléments de la suite.
+* Dans la boucle, modifier `left` and `right` pour ne garder que les deux derniers éléments de la suite.

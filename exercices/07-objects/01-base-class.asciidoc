@@ -31,8 +31,9 @@
 
 - Réutilisez la classe `Library`
 - Définissez la méthode `_ _ init _ _()`, qui accepte des arguments `name` et `address` :
+* `name` est un argument à valeur par défaut, à `None`
 * `address` possède une valeur par défaut à `None`
-* `name` est un argument positionnel, donc obligatoire
+* La méthode utilise ces arguments pour initialiser les attributs de `self`.
 - Instanciez deux nouveaux objets de cette classe
 - Exécutez la méthode `show_status()` sur ces deux objets
 
