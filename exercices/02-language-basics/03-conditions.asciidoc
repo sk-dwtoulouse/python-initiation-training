@@ -11,7 +11,7 @@
 - Assignez à une variable le texte "Bonjour".
 - Affichez "Bien le Bonjour" si votre variable contient "bonjour".
 
-== Exercice 3 (if-elif-else)
+== Exercice 3 (if-else)
 
 - Assignez à une variable le texte "Bonjour".
 - Affichez "Bien le Bonjour" si votre variable contient "Bonjour",
