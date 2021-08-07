@@ -25,7 +25,7 @@ number = randint(0, 1)
 
 == Exercice A2 (variante)
 
-- Reprenez une copie de l'exerice 1
+- Reprenez une copie de l'exercice 1
 - Mais cette fois, ayez un seul bloc `except` qui gère à la fois `IndexError` et `KeyError`, et qui affiche "Erreur d'accès".
 
 == Exercice A3
