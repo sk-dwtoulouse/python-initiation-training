@@ -48,9 +48,10 @@ class WindowManager:
         if path:
             self._csv_manager = CSVManager(path)
             self._window.button_csv_export.setEnabled(True)
-            # Empty and enable the list widget
+            # Empty list items and enable the list widget
             self._window.list_widget.clear()
             self._window.list_widget.setEnabled(True)
+            # Add rows in the list widget containing CSV rows
             for row in self._csv_manager.data:
                 item = QListWidgetItem(";".join(row))
                 self._window.list_widget.addItem(item)

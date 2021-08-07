@@ -20,3 +20,7 @@ if __name__ == "__main__":  # Only if executed manually.
     print(f"List of people older than 50 years old:\n{'–' * 80}")
     for person in query:  # type: Person
         print(f"{person.id:02d}. {person.get_full_name():<30}: {person.age} years old.")
+
+    # Exemple pour créer un nouvel objet Person dans ma table
+    # nouvelle_personne = Person(first_name="Bob", last_name="Bob", age=90)
+    # nouvelle_personne.save()
