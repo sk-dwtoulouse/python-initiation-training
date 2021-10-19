@@ -5,10 +5,11 @@ Simple script with model definition to showcase the
 use of ORMs and Peewee for beginners in database usage.
 
 """
-import peewee as pw
+import peewee as pw  # pip install peewee
 from models import Person
 
-if __name__ == "__main__":  # Only if executed manually.
+
+if __name__ == "__main__":  # Only True if current script is executed manually.
     # Initialize a Peewee database for SQLite
     db = pw.SqliteDatabase("database/demo-file.sqlite3")
     # Make the Person model use the database.

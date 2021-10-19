@@ -23,6 +23,7 @@ class Person(pw.Model):
 
     class Meta:
         indexes = (
+            # Make a UNIQUE index with the two following columns
             (("last_name", "first_name"), True),
         )
 
