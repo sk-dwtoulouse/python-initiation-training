@@ -3,11 +3,9 @@
 == Exercice 1
 
 - Affichez dans la console le texte suivant :
-```
-La rue Rostand
-   Se trouve au
-Feu à droite
-```
+- La rue Rostand
+- `3 espaces` Se trouve au
+- Feu à droite
 
 == Exercice 2
 
