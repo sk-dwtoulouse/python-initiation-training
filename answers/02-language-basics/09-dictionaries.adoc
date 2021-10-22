@@ -1,0 +1,12 @@
+= Exercices sur les dictionnaires
+
+== Exercice A1 (compréhension)
+
+[source,python]
+----
+meteo = {"Pau": (21.0, "Nuageux", 1015), "Gap": (20.3, "Dégagé", 1019), "Osny": (19.1, "Brouillard", 1015)}
+# Récupérer un dictionnaire dont les clés sont les noms de ville
+# et dont les valeurs sont uniquement les températures
+converted = {key: meteo[key][0] for key in meteo}
+print(converted)
+----

@@ -9,12 +9,12 @@
 == Exercice 2 (if)
 
 - Assignez à une variable le texte "Bonjour".
-- Affichez "Bien le Bonjour" si votre variable contient "bonjour".
+- Affichez "Bien le Bonjour" si votre variable est égale à "bonjour".
 
 == Exercice 3 (if-else)
 
 - Assignez à une variable le texte "Bonjour".
-- Affichez "Bien le Bonjour" si votre variable contient "Bonjour",
+- Affichez "Bien le Bonjour" si votre variable est égale à "Bonjour",
 - Sinon (dans tous les autres cas), afficher "Je ne comprends pas ?"
 
 == Exercice 4 (if-elif-else)
