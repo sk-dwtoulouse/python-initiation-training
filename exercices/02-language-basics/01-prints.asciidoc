@@ -1,16 +1,32 @@
-= Exercices sur `print`
+= Exercices sur la fonction `print()`
 
 == Exercice 1
 
-- Affichez dans la console le texte suivant :
-- La rue Rostand
-- `3 espaces` Se trouve au
+Affichez dans la console le texte suivant :
+
+- La rue Rostand,
+- `3 espaces` se trouve au
 - Feu à droite
 
 == Exercice 2
 
-`print` prend plusieurs arguments, qui sont affichés sur la même ligne, séparés par un espace. *Syntaxe* : `print("a", "b", "c", etc.)`
+La fonction `print()` accepte plusieurs arguments, dont les valeurs sont affichées sur la même ligne, et par défaut séparés par un espace.
 
-- Affichez, avec cette syntaxe, le texte suivant :
+*La syntaxe est la suivante* : `print("a", "b", "c", 19)`
+
+Affichez, en imitant cette syntaxe, le texte suivant :
+
 * Hauts les cœurs !
-- `Alt Gr + O` → `œ`
+
+(sous Linux, le e dans l'o s'obtient avec la combinaison de touches `Alt Gr + O`. Sous Windows, `Alt + 339` devrait donner le même résultat)
+
+== Exercice A1
+
+La fonction `print()` accepte des arguments avec des noms spécifiques, dont `sep` et `end`. `sep` permet de désigner quelle chaîne sépare les arguments à afficher, et `end` permet de préciser par quelle chaîne terminer le `print`.
+Par défaut, `sep=" "` et `end="\n"`. La fonction s'utiliserait ainsi :
+
+```python
+# Ne sépare pas les éléments via un espace et passe deux fois
+# à la ligne à la fin du print.
+print("1", "2", "3", sep="", end="\n\n")
+```

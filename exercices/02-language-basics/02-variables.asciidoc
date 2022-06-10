@@ -1,34 +1,59 @@
 = Variables
 
+---
+
 == Exercice 1
 
-- Déclarez trois variables, avec des noms corrects, contenant :
+- Déclarez trois variables, avec des noms corrects, contenant :
 * Le nom d'une personne, ex. "Paul"
 * La température courante en °C, ex. 25.3
 * L'âge d'une personne, ex. 30
+- Affichez dans la console les valeurs de ces trois variables.
+
+---
 
 == Exercice 2
 
 - Demandez à l'utilisateur de saisir du texte, et mettez-le dans une variable
 - Affichez le contenu de la variable.
-- Outils : `input()`, `print()`
 
-== Exercice 3
+*Fonctions nécessaires* : `variable = input("Texte d'invite:")`, `print()`
 
-- Déclarez trois variables, contenant le résultats de :
+---
+
+== Exercice 3 : Expressions
+
+- Déclarez plusieurs variables, contenant le résultats de :
 * Une opération arithmétique entre nombres
 * Une comparaison entre nombres
 * Une opération d'addition entre deux chaînes
+* L'expression `(59 * 62 + 13) / 6.5`
 - Affichez leur contenu dans la console.
 
-== Exercice 4
+---
 
-- Déclarez trois variables, avec des noms typographiquement **incorrects**.
-* Ex. `VariableSuper`, `topUser`, `Rond_De_Cuir` etc...
+== Exercice A1 : Conversion en ordres de grandeur
 
-== Exercice A1
-
-- Définissez une variable contenant une valeur en mètres (supérieure à 1000, ex 4210)
+- Déclarez une variable contenant une distance en mètres (au moins 1001, ex 4210)
 - Affichez le nombre de kilomètres dans cette valeur (nombre entier, ex. 4)
 - Afficher le nombre de mètres restants dans cette valeur (ex. 210)
-- Outils : opérateurs `//` (division entière), `%` (modulo)
+
+*Outils nécessaires* : opérateurs `//` (division entière), `%` (modulo)
+
+Vous pouvez afficher tout cela sur une ligne avec un seul appel à la fonction `print()`, par exemple :
+
+```python
+kilometers = 5
+meters = 450
+print(kilometers, "kilomètres et", meters, "mètres.")
+```
+
+---
+
+== Exercice A2 : Deux ordres de grandeur
+
+- Déclarez une variable contenant une masse en grammes (au moins 1 000 000)
+- Affichez le nombre de tonnes, de kilogrammes et de grammes dans cette masse.
+
+Vous devrez utiliser les mêmes outils que dans l'exercice précédent, mais il
+y a deux ordres de grandeur à prendre en compte !
