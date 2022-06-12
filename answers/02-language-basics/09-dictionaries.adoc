@@ -1,12 +1,26 @@
 = Exercices sur les dictionnaires
 
-== Exercice A1 (compréhension)
+---
+
+== Exercice A1 : compréhension de dictionnaire
+
+*Rappel* : Convertir un dictionnaire en gardant les clés originales,
+mais y associer comme valeurs uniquement les températures.
 
 [source,python]
 ----
-meteo = {"Pau": (21.0, "Nuageux", 1015), "Gap": (20.3, "Dégagé", 1019), "Osny": (19.1, "Brouillard", 1015)}
+# Dictionnaire original
+meteo = {
+    "Pau": (21.0, "Nuageux", 1015),
+    "Gap": (20.3, "Dégagé", 1019),
+    "Osny": (19.1, "Brouillard", 1015)
+}
 # Récupérer un dictionnaire dont les clés sont les noms de ville
-# et dont les valeurs sont uniquement les températures
+# et dont les valeurs sont uniquement les températures :
+# ici on conserve la clé, telle quelle, et comme chaque valeur
+# associée aux clés est toujours un tuple dont le premier élément est la
+# température, on peut s'y prendre ainsi :
 converted = {key: meteo[key][0] for key in meteo}
+# On affiche le résultat pour le vérifier
 print(converted)
 ----
