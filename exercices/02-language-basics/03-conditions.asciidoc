@@ -1,42 +1,59 @@
 = Conditions
 
-== Exercice 1
+---
 
-- Assignez à une variable contenant le résultat d'un lancer de dé
-- Affichez "Lancer réussi !" si la valeur est supérieure strictement à 4
+== Exercice 1 : `if` seul
+
+- Déclarez une variable avec une valeur entière entre 1 et 6 (lancer de dé).
+- Affichez `"Lancer réussi !"` si la valeur est supérieure strictement à 4
 - Retestez votre code en changeant la valeur du lancer
 
-== Exercice 2 (if)
+---
 
-- Assignez à une variable le texte "Bonjour".
-- Affichez "Bien le Bonjour" si votre variable est égale à "bonjour".
+== Exercice 2 : `if` seul, comparer du texte
 
-== Exercice 3 (if-else)
+- Déclarez une variable avec le texte `"Bonjour"`;
+- Affichez `"Bien le bonjour"` si votre variable est égale à `"bonjouR"`.
 
-- Assignez à une variable le texte "Bonjour".
-- Affichez "Bien le Bonjour" si votre variable est égale à "Bonjour",
-- Sinon (dans tous les autres cas), afficher "Je ne comprends pas ?"
+(Les majuscules ne sont pas placées ici par hasard, conservez-les)
 
-== Exercice 4 (if-elif-else)
+---
 
-- Assignez à une variable une valeur entre 0 et 10.
-- Si cette valeur est d'au moins 9, afficher "Grand"
-- Sinon, si cette valeur est d'au moins 5, afficher "Moyen"
-- Sinon, afficher "Petit"
+== Exercice 2B : `if…else`
 
-== Exercice 5 (conditions avec `and` et `or`)
+- Assignez à une variable le texte `"Bonjour"`;
+- Affichez `"Bien le bonjour"` si votre variable est égale à `"Bonjour"`;
+- Sinon, (dans tous les autres cas) afficher `"Je ne comprends pas !"`.
 
-- Assignez à deux variables a1 et a2 des nombres entre 0 et 10
-- Si a1 est supérieur à 5 et a2 est inférieur à 6, afficher "OK"
-- Sinon, afficher "Pas OK"
+---
 
-== Exercice 6 (conditions avec `and` et `or`)
+== Exercice 3 : `if…elif…else`
 
-- Assignez à deux variables `a1` et `a2` des nombres entre 0 et 10
-- Si `a1` est supérieur à 5 ou `a2` est inférieur à 6, afficher "Conditions insuffisantes"
-- Sinon, afficher "Pas OK"
+- Assignez à une variable un entier arbitraire entre 0 et 10 inclus;
+- Si cette valeur est d'au moins 9, afficher `"Élevé"`;
+- Sinon, si cette valeur est d'au moins 7, afficher `"Haut"`;
+- Sinon, si cette valeur est d'au moins 4, afficher `"Standard"`;
+- Sinon, afficher `"Bas"`.
 
-== Exercice A1
+---
+
+== Exercice A1 : Multiples conditions
+
+- Assignez à deux variables `a1` et `a2` des nombres entiers entre 0 et 10
+- Si `a1` est supérieur à 5 *et* `a2` est inférieur à 6, afficher `"OK"`
+- Sinon, afficher `"Valeurs incorrectes"`
+
+---
+
+== Exercice A2 (conditions avec `and` et `or`)
+
+- Assignez à deux variables `a1` *et* `a2` des nombres entre 0 et 10
+- Si `a1` est supérieur à 5 *ou* `a2` est inférieur à 6, afficher `"Conditions suffisantes"`
+- Sinon, afficher `"Valeurs incorrectes"`
+
+---
+
+== Exercice A3
 
 - Déclarez une variable de statut `is_on` contenant un booléen (`True` ou `False`)
 - Demandez à l'utilisateur de *saisir un texte*, et assignez-le à une variable `saisie`
@@ -46,3 +63,10 @@
 - Sinon, si `saisie` vaut "Arrêt" :
 * Si `is_on` est `True`, afficher "Extinction..."
 * Sinon, afficher "Déjà éteint !"
+
+Exemple de rappel :
+
+```python
+# Demander de saisir un texte et récupérer le résultat dans une variable
+saisie = input("Saisissez du texte :")
+```
