@@ -1,6 +1,6 @@
 = Exercices sur les dictionnaires
 
----
+'''
 
 == Exercice A1 : compréhension de dictionnaire
 
