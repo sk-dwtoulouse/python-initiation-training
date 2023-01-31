@@ -57,3 +57,14 @@ print(kilometers, "kilomètres et", meters, "mètres.")
 
 Vous devrez utiliser les mêmes outils que dans l'exercice précédent, mais il
 y a deux ordres de grandeur à prendre en compte !
+
+---
+
+== Exercice A3 : Saisie de nombres
+
+- Demandez à l'utilisateur de saisir deux nombres (en deux fois).
+- Indiquez quel est le nombre le plus grand qui a été saisi.
+
+Sachant que la saisie récupérée est toujours une chaîne de caractères vous devez récupérer une version de la saisie qui est un nombre pour pouvoir faire des comparaisons intéressantes.
+
+*Rappel* : pour récupérer un entier depuis une chaîne, utilisez `int(valeur)`
