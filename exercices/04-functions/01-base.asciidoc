@@ -33,4 +33,5 @@
 * `10, 4`
 * `10, -1`
 * `1, 0`
+* `10`
 - Variez les appels en passant les arguments positionnellement, par nom, etc.
