@@ -1,0 +1,65 @@
+= Exercices
+
+== Exercice 1
+
+[source, python]
+----
+prenom = "Paul"
+temperature = 24.8
+paul_age = 30
+print(prenom, temperature, paul_age)
+----
+
+== Exercice 2
+
+[source, python]
+----
+saisie = input("Saisissez du texte :")
+print(saisie)
+----
+
+== Exercice 3
+
+[source, python]
+----
+val1 = 53 * 46 + 13
+val2 = 99 > 13
+val3 = "Bonjour " + "chef"
+val4 = (59 * 62 + 13) / 6.5
+print(val1, val2, val3, val4)
+----
+
+== Exercice A1
+
+[source, python]
+----
+distance = 42195
+print(distance // 1000)  # nombre de kilomètres
+print(distance % 1000)  # nombre de mètres restants
+----
+
+== Exercice A2
+
+[source, python]
+----
+weight = 4_502_177
+print(weight // 1000000, "tonnes")  # combien de groupes de 1000000 de grammes
+print((weight // 1000) % 1000)  # combien de kilos restants, sans compter les tonnes
+print(weight % 1000)  # combien de grammes restants
+----
+
+== Exercice A3
+
+[source, python]
+----
+saisie1 = input("Premier nombre :")  # attention, je vais récupérer du texte
+saisie2 = input("Second nombre :")
+saisie1 = float(saisie1)  # convertir en flottant
+saisie2 = float(saisie2)  # convertir en flottant
+if saisie1 > saisie2:
+    print(saisie1)
+else:
+    print(saisie2)
+# Autre possibilité intéressante
+print(max(saisie1, saisie2))
+----

@@ -1,0 +1,17 @@
+= Exercices
+
+== Exercice 1
+
+[source, python]
+----
+print("La rue Rostand,")
+print("   se trouve au")
+print("Feu à droite")
+----
+
+== Exercice 2
+
+[source, python]
+----
+print("Haut", "les", "cœurs", "!")
+----

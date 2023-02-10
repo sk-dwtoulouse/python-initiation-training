@@ -1,0 +1,88 @@
+= Exercices
+
+== Exercice 1
+
+[source, python]
+----
+roll = 5
+if roll > 4:
+    print("Lancer réussi !")
+----
+
+== Exercice 2
+
+[source, python]
+----
+text = "Bonjour"
+if text == "bonjouR":
+    print("Bien le bonjour")
+----
+
+== Exercice 2B
+
+[source, python]
+----
+text = "Bonjour"
+if text == "Bonjour":
+    print("Bien le bonjour")
+else:
+    print("Je ne comprends pas !")
+----
+
+== Exercice 3
+
+[source, python]
+----
+value = 7
+if value >= 9:
+    print("Élevé")
+elif value >= 7:
+    print("Haut")
+elif value >= 4:
+    print("Standard")
+else:
+    print("Bas")
+----
+
+== Exercice A1
+
+[source, python]
+----
+a1 = 4
+a2 = 7
+if a1 > 5 and a2 < 6:
+    print("OK")
+else:
+    print("Valeurs incorrectes")
+----
+
+== Exercice A2
+
+[source, python]
+----
+a1 = 5
+a2 = 5
+if a1 > 5 or a2 < 6:
+    print("Conditions suffisantes")
+else:
+    print("Valeurs incorrectes")
+----
+
+== Exercice A3
+
+[source, python]
+----
+is_on = True
+saisie = input("Saisissez une commande (Marche ou Arrêt) :")
+if saisie == "Marche":
+    if is_on is False:
+        print("Allumage en cours…")
+    else:
+        print("Déjà allumé !")
+elif saisie == "Arrêt":
+    if is_on:
+        print("Extinction…")
+    else:
+        print("Déjà éteint !")
+----
+

@@ -1,0 +1,27 @@
+= Exercices
+
+== Exercice 1
+
+[source, python]
+----
+for number in range(10):
+    print(number)
+----
+
+== Exercice 2
+
+[source, python]
+----
+for number in range(10):
+    if number % 2 == 0:  # Est pair / reste 0 quand on fait la division entière
+        print(number)
+----
+
+== Exercice A1
+
+[source, python]
+----
+for item1 in range(10):
+    for item2 in range(item1):
+        print(item1, item2)
+----
