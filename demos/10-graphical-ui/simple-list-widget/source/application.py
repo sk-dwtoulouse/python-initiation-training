@@ -1,6 +1,6 @@
-from PySide6.QtGui import QIcon, QBrush, Qt
+from PySide6.QtGui import QIcon
 from PySide6.QtUiTools import QUiLoader
-from PySide6.QtWidgets import QApplication, QListWidget, QListWidgetItem, QWidget, QMainWindow
+from PySide6.QtWidgets import QApplication, QListWidget, QListWidgetItem, QMainWindow
 
 if __name__ == "__main__":
     application = QApplication()

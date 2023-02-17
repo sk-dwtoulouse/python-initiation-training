@@ -1,0 +1,1 @@
+print("Hauts", "les", "cœurs", "!")

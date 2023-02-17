@@ -48,7 +48,7 @@ e = a[::2]  # Tout parcourir 2 par 2
 
 == Exercice A1
 
-- Écrivez une liste contenant les nombres multiplesd e 3 de 0 à 15.
+- Écrivez une liste contenant les nombres multiples de 3 de 0 à 15.
 - Faites une boucle `for` sur cette liste,
 * et affichez uniquement les nombres pairs de cette liste (`valeur % 2 == 0`)
 
