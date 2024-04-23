@@ -3,8 +3,7 @@
 == Exercice 1
 
 - Écrivez une liste contenant les nombres entiers pairs de 0 à 10 inclus
-- Assignez la longueur de la liste à une variable (`len()`)
-- Affichez le dernier élément de la liste (en utilisant la longueur)
+- Affichez le dernier élément de la liste (en utilisant la longueur de la liste avec la fonction `len()`{.python})
 - Ajoutez un élément à la fin de la liste
 - Affichez le nouveau contenu de la liste
 
