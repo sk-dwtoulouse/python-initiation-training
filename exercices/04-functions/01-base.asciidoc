@@ -27,8 +27,8 @@
 == Exercice 4
 
 - Écrivez une fonction nommée `quotient` qui prend un argument positionnel `numerator` et un argument par défaut `denominator`, qui prend la valeur `1` par défaut.
-- La fonction renvoie le quotient de `numerator` et `denominator`.
-- La fonction gère l'exception de `ZeroDivisionError` en renvoyant la valeur `None`.
+- La fonction renvoie la division de `numerator` par `denominator`.
+- Si le `denominator` est nul, renvoyer plutôt la valeur `None`.
 - Affichez le résultat de cette fonction lorsque vous l'appelez avec les valeurs :
 * `10, 4`
 * `10, -1`
